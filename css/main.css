@@ -14,7 +14,7 @@
 }
 
 *{
-	font-family: "Lato", sans-serif;
+	font-family: "Lora", serif;
 }
 
 .text-center {
@@ -29,6 +29,7 @@
     text-align: left;
 }
 
+
 img {
     margin: 0;
 }
@@ -40,37 +41,44 @@ a {
 
 /* Titles */
 h1 {
-    font: lighter 55px "Lato", sans-serif;
-    color: #747704;
+    font: lighter 50px "Yeseva One", serif;
+    color: #555;
     margin: 3px
 }
 
 h2 {
-    font: bold 20px "Lato", sans-serif;
-    color: #747704;
+    font: bold 17px "Lora", serif;
+    color: #555;
     margin: 3px;
 }
 
 h3 {
-    font: 35px "Lato", sans-serif;
-    color: #bcbbbb;
-    margin: 20px 0 3px;
+    font: 30px "Yeseva One", serif;
+    color: #AAA;
+    margin: 20px 0 10px;
 }
 
 h4 {
-    font: bold 35px "Lato", sans-serif;
-    color:#747704;
+    font: bold 15px "Yeseva One", serif;
+    color:#555;
     margin: 3px;
 }
 
 h5 {
-    color:#747704;
+    font: bold 18px "Yeseva One", serif;
+    color:#555;
+    margin: 3px;
+}
+
+h6 {
+    font: lighter 14px "Lora", serif;
+    color:#555;
     margin: 3px;
 }
 
 .title-divider {
     border: 2px solid #bcbbbb;
-    margin: 0 0 30px;
+    margin: 0 0 10px;
 }
 
 /* Grid */
@@ -145,4 +153,11 @@ h5 {
 .col-12 {
     width: 100%;
     margin: 0;
+}
+
+/* Content */
+.description {
+    font: lighter 14px "Lora", serif;
+    color:#555;
+    margin: 5px 8px 3px;
 }
